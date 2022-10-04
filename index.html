@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>HOTEL GP</title>
+        <title>HOTEL Le marais - Romilly Sur Seine</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
         <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
@@ -14,7 +14,7 @@
         <header class = "header" id = "header">
             <div class = "head-top">
                 <div class = "site-name">
-                    <span>GEEKPROBIN</span>
+                    <span>Hotel du marais</span>
                 </div>
                 <div class = "site-nav">
                     <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
@@ -22,9 +22,9 @@
             </div>
 
             <div class = "head-bottom flex">
-                <h2>NICE AND COMFORTABLE PLACE TO STAY</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est quos veniam impedit numquam itaque voluptatum, dicta asperiores accusamus, eligendi neque ut incidunt, modi harum molestiae atque natus officia minima.</p>
-                <button type = "button" class = "head-btn">GET STARTED</button>
+                <h2>Hotel du Marais</h2>
+                <p>L’hôtel Le Marais Romilly Sur Seine Centre est situé dans le quartier d’affaires de Romilly-sur-Seine en Champagne-Ardenne.</p>
+                <a class = "head-btn" href="#book">Reserver</a>
             </div>
         </header>
         <!-- end of header -->
@@ -36,13 +36,11 @@
             </span>
 
             <ul class = "navbar">
-                <li><a href = "#header">home</a></li>
-                <li><a href = "#services">services</a></li>
-                <li><a href = "#rooms">rooms</a></li>
-                <li><a href = "#customers">customers</a></li>
+                <li><a href = "#header">Accueil</a></li>
+                <li><a href = "#services">Services</a></li>
+                <li><a href = "#rooms">Chambres</a></li>
+                <li><a href = "#customers">Avis</a></li>
             </ul>
-            <button class = "btn sign-up">sign up</button>
-            <button class = "btn log-in">log in</button>
         </div>
         <!-- end of side navbar -->
 
@@ -64,9 +62,8 @@
                         </span>
                     </div>
                     <div class = "service-content">
-                        <h2>Food Service/ Food Runner</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
-                        <button type = "button" class = "btn">Know More</button>
+                        <h2>Petit dejeuner</h2>
+                        <p>Un buffet pour le petit dejeuner vous est propose en option avec votre chambre</p>
                     </div>
                 </article>
                 <!-- end of single service -->
@@ -74,13 +71,12 @@
                 <article class = "service">
                     <div class = "service-icon">
                         <span>
-                            <i class = "fas fa-swimming-pool"></i>
+                            <i class = "fas fa-wifi"></i>
                         </span>
                     </div>
                     <div class = "service-content">
-                        <h2>Refreshment</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
-                        <button type = "button" class = "btn">Know More</button>
+                        <h2>Wifi gratuit</h2>
+                        <p>Une connection wifi est accessible gratuitement depuis toute les chambres</p>
                     </div>
                 </article>
                 <!-- end of single service -->
@@ -88,13 +84,12 @@
                 <article class = "service">
                     <div class = "service-icon">
                         <span>
-                            <i class = "fas fa-broom"></i>
+                            <i class = "fas fa-snowflake"></i>
                         </span>
                     </div>
                     <div class = "service-content">
-                        <h2>Housekeeping</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
-                        <button type = "button" class = "btn">Know More</button>
+                        <h2>Air climatise</h2>
+                        <p>Toutes nos chambres sont equipe d'une unite individuelle d'air climatise</p>
                     </div>
                 </article>
                 <!-- end of single service -->
@@ -102,51 +97,49 @@
                 <article class = "service">
                     <div class = "service-icon">
                         <span>
-                            <i class = "fas fa-door-closed"></i>
+                            <i class = "fas fa-parking"></i>
                         </span>
                     </div>
                     <div class = "service-content">
-                        <h2>Room Security</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
-                        <button type = "button" class = "btn">Know More</button>
+                        <h2>Parking offert</h2>
+                        <p>Un parking de plus de 48 places ainsi qu'un abris pour deux roues sont a disposition gratuitement pour nos clients</p>
                     </div>
                 </article>
                 <!-- end of single service -->
             </div>
         </section>
 
-        <div class = "book">
-            <form class = "book-form">
-                <div class = "form-item">
-                    <label for = "checkin-date">Check In Date: </label>
-                    <input type = "date" id = "chekin-date">
-                </div>
-                <div class = "form-item">
-                    <label for = "checkout-date">Check Out Date: </label>
-                    <input type = "date" id = "chekout-date">
-                </div>
-                <div class = "form-item">
-                    <label for = "adult">Adults: </label>
-                    <input type = "number" min = "1" value = "1" id = "adult">
-                </div>
-                <div class = "form-item">
-                    <label for = "children">Children: </label>
-                    <input type = "number" min = "1" value = "1" id = "children">
-                </div>
-                <div class = "form-item">
-                    <label for = "rooms">Rooms: </label>
-                    <input type = "number" min = "1" value = "1" id = "rooms">
-                </div>
-                <div class = "form-item">
-                    <input type = "submit" class = "btn" value = "Book Now">
-                </div>
-            </form>
-        </div>
+        <div class = "book" id="book">
+            <h2>Reservations</h2>
+                <p>Pour reserver une chambre, nous vous invitons a nous contacter via l'un des moyens de communications suivant</p>
+            <div class="book-form">
+            <span class="form-item">
+                <a href="tel:+33325252510">
+            <i class = "fas fa-phone"></i> <br>
+             Tel: 03 25 25 25 10</a>
 
+            </span>
+            <span class="form-item">
+                <a href="fax:0970063893">
+                <i class = "fas fa-fax"></i> <br>
+                Fax: 09 70 06 38 93 </a>
+    
+                </span>
+                <span class="form-item">
+                    <a href="mailto:lhotelromilly@gmail.com">
+                    <i class = "fas fa-at"></i> <br>
+                   Email: lhotelromilly@gmail.com</a>        
+                    </span>
+                    
+         </div>
+        </div>
+       
         <section class = "rooms sec-width" id = "rooms">
             <div class = "title">
-                <h2>rooms</h2>
+                <h2>Nos chambres</h2>
             </div>
+            <p>Toute nos chambres sont assujetis a une taxe de sejour de 0.30€ par nuit par personne</p>
+
             <div class = "rooms-container">
                 <!-- single room -->
                 <article class = "room">
@@ -154,57 +147,25 @@
                         <img src = "images/img1.jpg" alt = "room image">
                     </div>
                     <div class = "room-text">
-                        <h3>Luxury Rooms</h3>
+                        <h3>Chambre double</h3>
                         <ul>
                             <li>
                                 <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
+                                Ideal pour une personne seul ou un couple
                             </li>
                             <li>
                                 <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
+                                Acces gratuit illimite a internet via wifi
                             </li>
                             <li>
                                 <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
+                               petit dejeuner en option pour 8€ par personne
                             </li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus exercitationem repellendus maxime ullam tempore architecto provident unde expedita quam beatae, dolore eligendi molestias sint tenetur incidunt voluptas. Unde corporis qui iusto vitae. Aut nesciunt id iste, cum esse commodi nemo?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis quasi officiis cumque, fugiat nostrum sunt, tempora animi dicta laborum beatae ratione doloremque. Delectus odio sit eius labore, atque quo?</p>
                         <p class = "rate">
-                            <span>$99.00 /</span> Per Night
+                            <span>56€ /</span> Par nuit
                         </p>
-                        <button type = "button" class = "btn">book now</button>
-                    </div>
-                </article>
-                <!-- end of single room -->
-                <!-- single room -->
-                <article class = "room">
-                    <div class = "room-image">
-                        <img src = "images/img2.jpg" alt = "room image">
-                    </div>
-                    <div class = "room-text">
-                        <h3>Luxury Rooms</h3>
-                        <ul>
-                            <li>
-                                <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
-                            </li>
-                            <li>
-                                <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
-                            </li>
-                            <li>
-                                <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
-                            </li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus exercitationem repellendus maxime ullam tempore architecto provident unde expedita quam beatae, dolore eligendi molestias sint tenetur incidunt voluptas. Unde corporis qui iusto vitae. Aut nesciunt id iste, cum esse commodi nemo?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis quasi officiis cumque, fugiat nostrum sunt, tempora animi dicta laborum beatae ratione doloremque. Delectus odio sit eius labore, atque quo?</p>
-                        <p class = "rate">
-                            <span>$99.00 /</span> Per Night
-                        </p>
-                        <button type = "button" class = "btn">book now</button>
+                        <a href="#book" class = "btn">reserver</a>
                     </div>
                 </article>
                 <!-- end of single room -->
@@ -214,27 +175,51 @@
                         <img src = "images/img3.jpg" alt = "room image">
                     </div>
                     <div class = "room-text">
-                        <h3>Luxury Rooms</h3>
+                        <h3>Chambre twin</h3>
                         <ul>
                             <li>
                                 <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
+                                2 grand lits separes, ideal pour des amis ou des collegues.
                             </li>
                             <li>
                                 <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
+                                Acces gratuit illimite a internet via Wifi
                             </li>
                             <li>
                                 <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
+                                petit dejeuner en option pour 8€ par personne
                             </li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus exercitationem repellendus maxime ullam tempore architecto provident unde expedita quam beatae, dolore eligendi molestias sint tenetur incidunt voluptas. Unde corporis qui iusto vitae. Aut nesciunt id iste, cum esse commodi nemo?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis quasi officiis cumque, fugiat nostrum sunt, tempora animi dicta laborum beatae ratione doloremque. Delectus odio sit eius labore, atque quo?</p>
                         <p class = "rate">
-                            <span>$99.00 /</span> Per Night
+                            <span>58€ /</span> Par nuit
                         </p>
-                        <button type = "button" class = "btn">book now</button>
+                        <a href="#book" class = "btn">reserver</a>
+                    </div>
+                </article>
+                <!-- end of single room -->
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/img2.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Chambres Familiales</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                une chambre twin et une chambre double avec une porte communiquante, ideal pour les familles avec des enfants. 
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Acces gratuit illimite a internet via Wifi                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                petit dejeuner en option pour 8€ par personne
+                            </li>
+                            <p class = "rate">
+                                <span>91€ /</span> Par nuit
+                            </p>
+                            <a href="#book" class = "btn">reserver</a>
                     </div>
                 </article>
                 <!-- end of single room -->
@@ -245,11 +230,12 @@
         <section class = "customers" id = "customers">
             <div class = "sec-width">
                 <div class = "title">
-                    <h2>customers</h2>
+                    <h2>Nos clients en parlent...</h2>
                 </div>
                 <div class = "customers-container">
                     <!-- single customer -->
                     <div class = "customer">
+                        <a href="https://goo.gl/maps/47x97ggHVTWFTuku9">
                         <div class = "rating">
                             <span><i class = "fas fa-star"></i></span>
                             <span><i class = "fas fa-star"></i></span>
@@ -257,40 +243,46 @@
                             <span><i class = "fas fa-star"></i></span>
                             <span><i class = "far fa-star"></i></span>
                         </div>
-                        <h3>We Loved it</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
-                        <img src = "images/cus1.jpg" alt = "customer image">
-                        <span>Customer Name, Country</span>
-                    </div>
-                    <!-- end of single customer -->
-                    <!-- single customer -->
-                    <div class = "customer">
-                        <div class = "rating">
-                            <span><i class = "fas fa-star"></i></span>
-                            <span><i class = "fas fa-star"></i></span>
-                            <span><i class = "fas fa-star"></i></span>
-                            <span><i class = "fas fa-star"></i></span>
-                            <span><i class = "far fa-star"></i></span>
-                        </div>
-                        <h3>Comfortable Living</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
-                        <img src = "images/cus2.jpg" alt = "customer image">
-                        <span>Customer Name, Country</span>
-                    </div>
-                    <!-- end of single customer -->
-                    <!-- single customer -->
-                    <div class = "customer">
-                        <div class = "rating">
-                            <span><i class = "fas fa-star"></i></span>
-                            <span><i class = "fas fa-star"></i></span>
-                            <span><i class = "fas fa-star"></i></span>
-                            <span><i class = "fas fa-star"></i></span>
-                            <span><i class = "far fa-star"></i></span>
-                        </div>
-                        <h3>Nice Place</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
+                        <h3>Je recommande cet établissement les yeux fermés.</h3>
+                        <p>Un Hôtel qui paye pas de mine extérieurement mais la qualité est au rendez-vous. Le personnel est toujours à votre disposition et à votre écoute afin que vous passiez un bon séjour. Souriant et professionnel</p>
                         <img src = "images/cus3.jpg" alt = "customer image">
-                        <span>Customer Name, Country</span>
+                        <span>Sébastien Fougeras</span>
+                    </a>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <a href="https://goo.gl/maps/Ve2fQmNfJYUiuY2z8">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                        </div>
+                        <h3>Très bon rapport qualité prix à Romilly-sur-Seine</h3>
+                        <p>J'ai séjourné dans cet hôtel deux nuits. A chaque fois c'était très bien. Personnel très acceuillant et chambre parfaite.
+                        Très bon rapport qualité prix à Romilly-sur-Seine</p>
+                        <img src = "images/cus1.jpg" alt = "customer image">
+                        <span>Julien Thimonier</span>
+                    </a>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <a href="https://goo.gl/maps/Ve2fQmNfJYUiuY2z8">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                        </div>
+                        <h3>chaleureux et propre</h3>
+                        <p>Hôtel chaleureux propre et très bonne équipe je vous le conseil👍👌</p>
+                        <img src = "images/cus2.jpg" alt = "customer image">
+                        <span>Sarah Thierry</span>
+                    </a>
                     </div>
                     <!-- end of single customer -->
                 </div>
@@ -302,9 +294,17 @@
         <footer class = "footer">
             <div class = "footer-container">
                 <div>
-                    <h2>About Us </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente mollitia doloribus provident? Eos quisquam aliquid vel dolorum, impedit culpa.</p>
-                    <ul class = "social-icons">
+                    <h2>A Propos </h2>
+                    <p>Toutes nos chambres sont assujetis d'une taxe de sejour de 0.30€ par nuit par personne</p>
+                    <p>Les avis de nos clients presente sur ce site sont issue de google et leur original est disponible en cliquant dessus. Les images representant les clients sont a titre d'illustration et ne sont pas les photos personnels des clients. 
+                    Si vous en etes l'auteur et souhaitez le faire retirer, contactez nous par mail a <a href="mailto:lhotelromilly@gmail.com">lhotelromilly@gmail.com</a> ou par telephone au <a href="tel:+33325252510">03 25 25 25 10</a>
+                    </p> <br> <br>
+
+                    <p>retrouvez ce site sur <a href="https://github.com/taitai42/hotel-gp-single-page-site"></i></span> github</a></p>
+
+                    <p>Design adapte de <a href="https://github.com/prabinmagar/hotel-gp-single-page-site"></i></span> github</a></p>
+
+                    <!-- <ul class = "social-icons">
                         <li class = "flex">
                             <i class = "fa fa-twitter fa-2x"></i>
                         </li>
@@ -314,33 +314,18 @@
                         <li class = "flex">
                             <i class = "fa fa-instagram fa-2x"></i>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
 
-                <div>
-                    <h2>Useful Links</h2>
-                    <a href = "#">Blog</a>
-                    <a href = "#">Rooms</a>
-                    <a href = "#">Subscription</a>
-                    <a href = "#">Gift Card</a>
-                </div>
 
                 <div>
-                    <h2>Privacy</h2>
-                    <a href = "#">Career</a>
-                    <a href = "#">About Us</a>
-                    <a href = "#">Contact Us</a>
-                    <a href = "#">Services</a>
-                </div>
-
-                <div>
-                    <h2>Have A Question</h2>
+                    <h2>Une question ? </h2>
                     <div class = "contact-item">
                         <span>
                             <i class = "fas fa-map-marker-alt"></i>
                         </span>
                         <span>
-                            203 Fake St.Mountain View, San Francisco, California, USA
+                            <a href="https://goo.gl/maps/W1bC9cLYEvZA8teC7">123 Av. Diderot, 10100 Romilly-sur-Seine </a>
                         </span>
                     </div>
                     <div class = "contact-item">
@@ -348,7 +333,7 @@
                             <i class = "fas fa-phone-alt"></i>
                         </span>
                         <span>
-                            +84545 37534 48
+                            <a href="tel:+33325252510">03 25 25 25 10</a>
                         </span>
                     </div>
                     <div class = "contact-item">
@@ -356,7 +341,7 @@
                             <i class = "fas fa-envelope"></i>
                         </span>
                         <span>
-                            info@domain.com
+                            <a href="mailto:lhotelromilly@gmail.com">lhotelromilly@gmail.com</a>
                         </span>
                     </div>
                 </div>

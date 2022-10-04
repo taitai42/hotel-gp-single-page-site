@@ -29,6 +29,10 @@ body{
     margin: 15px auto;
     cursor: pointer;
     transition: var(--transition);
+    text-decoration: none;
+    background-color: #fff;
+    text-align: center;
+    color: black;
 }
 .btn:hover{
     opacity: 0.85;
@@ -103,6 +107,7 @@ img{
     color: #fff;
     cursor: pointer;
     transition: var(--transition);
+    text-decoration: none;
 }
 .head-btn:hover{
     background: transparent;
@@ -238,9 +243,23 @@ img{
 
 /* booking form */
 .book{
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/banner-img.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/cuisine.jpeg") center/cover no-repeat;
     color: #fff;
     padding: 40px 60px;
+    text-align: center;
+}
+
+.book a { 
+    text-decoration: none;
+    color: #fff
+}
+
+.book h2 { 
+    font-size: xx-large;
+}
+
+.book span { 
+    font-size: xx-large;
 }
 .book-form{
     display: grid;
@@ -249,6 +268,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 .book-form input[type = "submit"]{
     margin: 18px 0 0 0;
@@ -259,6 +279,7 @@ img{
 .book-form label, .book-form input{
     width: 100%;
 }
+
 .book-form label{
     font-weight: 600;
     word-spacing: 5px;
@@ -288,7 +309,7 @@ img{
 }
 @media(min-width: 1370px){
     .book-form{
-        grid-template-columns: 2fr 2fr 1fr 1fr 1fr 2fr;
+        grid-template-columns: 2fr 2fr 2fr;
     }
     .book{
         height: 40vh;
@@ -385,7 +406,7 @@ img{
 .customers{
     margin-top: 40px;
     padding: 40px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/customer-banner.jpg") center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/pain.jpg") center/cover no-repeat fixed;
 }
 .customer{
     background: #fff;
@@ -396,6 +417,12 @@ img{
     cursor: pointer;
     transition: var(--transition);
 }
+
+.customer a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .rating{
     margin: 10px 0;
     color: var(--yellow);
@@ -460,7 +487,6 @@ img{
     opacity: 0.8;
 }
 .footer a{
-    display: block;
     color: #fff;
     text-decoration: none;
 }
@@ -489,7 +515,7 @@ img{
 @media(min-width: 900px){
     .footer-container{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 2fr 1fr;
         grid-gap: 20px;
     }
 }
@@ -498,14 +524,14 @@ img{
         text-align: left;
     }
     .footer-container{
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: 2fr 1fr;
     }
     .footer-container div:nth-child(1) p{
         padding-right: 20px;
     }
     .contact-item{
         display: grid;
-        grid-template-columns: 10% 90%;
+        grid-template-columns: 5% 95%;
         margin-bottom: 15px;
         align-items: center;
     }
