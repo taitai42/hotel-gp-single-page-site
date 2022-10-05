@@ -58,7 +58,7 @@ img{
 
 /* header */
 .header{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("images/banner-img.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("images/banner-img.jpg") center/cover no-repeat;
     min-height: 100vh;
     color: #fff;
     padding: 25px;
@@ -70,6 +70,10 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.head-top a { 
+    text-decoration: none;
+    color: inherit;
 }
 .head-top span{
     cursor: pointer;
@@ -249,6 +253,10 @@ img{
     text-align: center;
 }
 
+.book p {
+    font-size: 25px;
+}
+
 .book a { 
     text-decoration: none;
     color: #fff
@@ -304,12 +312,12 @@ img{
 }
 @media(min-width: 1170px){
     .book-form{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 @media(min-width: 1370px){
     .book-form{
-        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-columns: 2fr 2fr;
     }
     .book{
         height: 40vh;
@@ -342,10 +350,12 @@ img{
 }
 .room-text ul{
     list-style-type: none;
-    margin: 15px 0;
+    margin: 30px 0;
 }
 .room-text ul li{
     padding: 7px 0;
+    margin-top: 20px;
+    font-size: 20px;
 }
 .room-text ul li i{
     color: var(--yellow);
