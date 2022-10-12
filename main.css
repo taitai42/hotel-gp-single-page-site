@@ -37,6 +37,19 @@ body{
 .btn:hover{
     opacity: 0.85;
 }
+
+.site-name { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.site-name img { 
+    width: 70px;
+    margin-right: 20px;
+}
+
 .flex{
     display: flex;
     flex-direction: column;
